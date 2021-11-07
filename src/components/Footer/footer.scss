@@ -1,0 +1,52 @@
+.footer {
+  background-image: linear-gradient(
+    to right,
+    rgb(63, 81, 181),
+    rgb(100, 181, 246)
+  );
+  border: none;
+  .footer-items {
+    padding: 42px;
+    display: flex;
+    .footer-column {
+      width: 25%;
+      text-align: left;
+      .column-name {
+        font-size: 1em;
+        color: #fff;
+        font-weight: 700;
+        margin-bottom: 14px;
+      }
+      .column-items {
+        margin-top: 14px;
+        .item {
+          padding-bottom: 5px;
+          a {
+            opacity: 0.5;
+            cursor: pointer;
+            text-decoration: none;
+            background-color: transparent;
+            color: white;
+            font-size: 1em;
+          }
+          a:hover {
+            opacity: 1;
+          }
+        }
+      }
+      .disclamer-text {
+        span {
+          color: white;
+          opacity: 0.5;
+        }
+      }
+    }
+    .mr-top {
+      margin-top: 26px;
+    }
+    .store-icons {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
