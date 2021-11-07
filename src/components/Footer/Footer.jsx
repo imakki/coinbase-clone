@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="footer-column">
           <div className="column-name">FOLLOW US</div>
           <a href="/">
-            <FontAwesomeIcon icon={["fab", "github"]} />
+            <FontAwesomeIcon icon={["fas", "facebook"]} />
           </a>
           <a href="/">
             <FontAwesomeIcon icon={["fas", "twitter"]} />
